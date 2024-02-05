@@ -1,8 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
 
-import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util.println;
-
 public class Component {
 
     // Component unique variables
@@ -64,7 +62,7 @@ public class Component {
                 "Tyan","Fujitsu","MSI","Seagate","Toshiba", "Western Digital", "XTREEM");
     }
     public String toString(){
-        println("yes");
+        String message = name + "-" + manufacturer + "$" + price;
         return ;
     }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c222fc-eac1-4409-90ed-a6c2dfcc481f" name="Changes" comment="2.3 completed">
+    <list default="true" id="a7c222fc-eac1-4409-90ed-a6c2dfcc481f" name="Changes" comment="2.4 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component.java" afterDir="false" />
     </list>
@@ -22,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-21_macos-aarch64_bin/jdk-21.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -96,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707159608446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2.4 completed">
+      <option name="closed" value="true" />
+      <created>1707160495306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707160495306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +137,7 @@
     <MESSAGE value="2.1 completed" />
     <MESSAGE value="2.2 completed" />
     <MESSAGE value="2.3 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.3 completed" />
+    <MESSAGE value="2.4 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.4 completed" />
   </component>
 </project>
