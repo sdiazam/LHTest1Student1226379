@@ -8,7 +8,7 @@ public class Component {
     // Component constructor
     public Component createComponent(String name, String manufacturer, double price) {
         setName(name);
-        setPrice(price);
+        setPrice(pric);
         setManufacturer(manufacturer);
         toString();
     }
