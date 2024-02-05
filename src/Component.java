@@ -8,7 +8,7 @@ public class Component {
     // Component constructor
     public Component createComponent(String name, String manufacturer, double price) {
         setName(name);
-        setPrice(pric);
+        setPrice(price);
         setManufacturer(manufacturer);
         toString();
     }
@@ -23,9 +23,15 @@ public class Component {
         }
     }
 
-    private void setPrice() {
+    private void setPrice(double price) {
+        if (price >= 0 && price <= 10000) {
+            this.price = price;
+        } else {
+            String e = "Error, please give a value from 0 - 10,000";
+            throw new IllegalArgumentException(e);
+        }
     }
-    private void setManufacturer() {
+    private void setManufacturer(String manufacturer) {
     }
     private void toString(){
 
