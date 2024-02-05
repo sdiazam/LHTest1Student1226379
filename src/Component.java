@@ -62,8 +62,6 @@ public class Component {
                 "Tyan","Fujitsu","MSI","Seagate","Toshiba", "Western Digital", "XTREEM");
     }
     public String toString(){
-        String message = name + "-" + manufacturer + "$" + price;
-        return ;
+        return name + "-" + manufacturer + "$" + price;
     }
-
 }

@@ -13,6 +13,10 @@ public class ShoppingCart {
     }
 
     public void getTotalPrice(Component item) {
-        items.remove(item);
+
+    }
+
+    public void getComponentNames(Component item) {
+        return String ArrayList<Component>;
     }
 }
