@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7c222fc-eac1-4409-90ed-a6c2dfcc481f" name="Changes" comment="2.2 completed">
+    <list default="true" id="a7c222fc-eac1-4409-90ed-a6c2dfcc481f" name="Changes" comment="2.3 completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707159358445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2.3 completed">
+      <option name="closed" value="true" />
+      <created>1707159608446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707159608446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.1 completed" />
     <MESSAGE value="2.2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.2 completed" />
+    <MESSAGE value="2.3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3 completed" />
   </component>
 </project>

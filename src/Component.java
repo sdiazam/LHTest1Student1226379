@@ -1,3 +1,8 @@
+import java.util.Arrays;
+import java.util.List;
+
+import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util.println;
+
 public class Component {
 
     // Component unique variables
@@ -14,7 +19,10 @@ public class Component {
     }
 
     // Set methods
+
+    // set name method
     private void setName(String name) {
+        // handles checking whether the string is valid length
         if (name.length() >= 3) {
             this.name = name;
         } else {
@@ -22,8 +30,9 @@ public class Component {
             throw new IllegalArgumentException(e);
         }
     }
-
+    // set price method
     private void setPrice(double price) {
+        // handles checking if price is in correct range
         if (price >= 0 && price <= 10000) {
             this.price = price;
         } else {
@@ -31,10 +40,32 @@ public class Component {
             throw new IllegalArgumentException(e);
         }
     }
+    // set manufacturer method
     private void setManufacturer(String manufacturer) {
-    }
-    private void toString(){
+        // create a list of the valid available manufacturers
+        List<String> validManus = getValidManus();
 
+        // if the list contains the one given, set it
+        if (validManus.contains(manufacturer)) {
+            this.manufacturer = manufacturer;
+        }
+        // if not then throw error message
+        else {
+            throw new IllegalArgumentException(manufacturer + " was not in the list of " +
+                    validManus);
+        }
+    }
+
+    //This method returns a list of all the valid manufacturers
+    public static List<String> getValidManus() {
+        return Arrays.asList("3Com","Acer","Arctic","AMD", "Asus",
+                "Apple Inc.","Bose","Cooler Master", "Hitachi", "Intel",
+                "Logitech", "Marvell", "Nvidia", "Qualcomm", "Samsung",
+                "Tyan","Fujitsu","MSI","Seagate","Toshiba", "Western Digital", "XTREEM");
+    }
+    public String toString(){
+        println("yes");
+        return ;
     }
 
 }
